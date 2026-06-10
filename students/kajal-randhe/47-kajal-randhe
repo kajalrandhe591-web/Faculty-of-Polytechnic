@@ -48,3 +48,13 @@ while unum != num:
     else:
         print("incorrect guess, try again")
 
+#problem5
+nos = 5
+Students = []
+
+for i in range(nos):
+    name = input("Enter name: ")
+    Students.append(name)
+
+print(Students)
+
